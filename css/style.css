@@ -1,0 +1,109 @@
+body{
+     background-color: #fff;
+    /* background-image: url('https://i.pinimg.com/originals/b8/1a/a4/b81aa44ba47c8ebb93c4525a96904101.jpg'); */
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,1) 100%), url(https://i.pinimg.com/originals/b8/1a/a4/b81aa44ba47c8ebb93c4525a96904101.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+section {
+    width: 70%;
+    /* background-color: gray; */
+    padding: 20px;
+    margin: 20px auto;
+}
+
+
+audio {
+    width: 50%;
+    height: 50px
+}
+
+aside{
+    width: 50%;
+    /* background-color: gray; */
+    padding: 20px;
+    margin: 20px auto;
+}
+
+
+header{
+    width: 950px;
+    height: 120px;
+    padding: 10px;
+    margin: 20px auto;
+    color: #617140;
+    /* background-color: rgb(46, 248, 204); */
+    background-color: #fff;
+     background-image: url(../img/header_bg.png); 
+    background-position:  center ;
+    background-repeat: no-repeat;   
+    background-size: 1000px 600px;
+}       
+header nav ul{
+    display: flex ;
+    margin: 10 px;
+	padding: 0;
+}
+header nav li{
+    list-style: none; 
+    font-size: 20pt;
+    margin: auto;
+    
+}
+
+header a{
+    /* display: block; */
+	color: #617140;
+    text-decoration: none;
+    padding: 4px 10px;  
+	border:  solid #e5e9dc;
+}
+
+header a:hover{
+    background-color: #f2fcde;
+	/* color: #fff; */
+}
+
+.article-section-p{
+    font-size: 18pt;
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+}
+
+header>h1{
+    text-align: center;  
+    text-decoration: underline;
+    color: rgb(224, 28, 175);  
+    font-size: 30px;
+    position: relative; bottom: 5px;
+}   
+
+
+
+.content-area{
+    display:flex;
+}
+article {
+    flex:1;
+    min-height: 500px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0px;
+    border-left: 2px dotted black;
+}
+
+aside{
+    flex: 1;
+    min-height: 500px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 100px;
+    border-left: 2px dotted #000000;
+    border-right: 2px dotted #000000;
+}
+footer{
+    color: yellow;
+}
