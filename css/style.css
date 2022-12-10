@@ -41,7 +41,12 @@ header{
     background-position:  center ;
     background-repeat: no-repeat;   
     background-size: 1000px 600px;
-}       
+}
+
+.header-fix{
+    height: 70px;
+}
+
 header nav ul{
     display: flex ;
     margin: 10 px;
@@ -107,3 +112,20 @@ aside{
 footer{
     color: yellow;
 }
+
+.content{
+   display: flex;
+   justify-content: center;
+   margin-left: 50px;
+}
+
+.content-li{
+   margin: 50px auto;
+   font-size: 30px;
+   list-style-type: none;
+}
+
+.content-li:hover{
+   transform: scale(1.1,1.1);
+   transition: all 1s;
+ }
